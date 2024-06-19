@@ -1,0 +1,772 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: aliceblue;
+  }
+  
+  .navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #6B8A7A;
+    padding: 10px 20px;
+    height: 100px;
+  }
+  
+  .navbar-brand {
+    display: flex;
+    align-items: center;
+  }
+  
+  .navbar-logo {
+    width: 160px;
+    height: 110px;
+  }
+  
+  .navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    margin-left: auto;
+  }
+  
+  .navbar-menu li {
+    margin-left: 20px;
+  }
+  
+  .navbar-menu a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 8px 16px;
+    font-size: 25px;
+    display: block;
+  }
+  
+  .navbar-menu a:hover {
+    background-color: #575757;
+    border-radius: 4px;
+  }
+  
+  .login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .login-form input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+  }
+  
+  .login-form button {
+    padding: 10px 20px;
+    margin: 5px 120px;
+    border: none;
+    border-radius: 4px;
+    background-color: #6B8A7A;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .login-form button:hover {
+    background-color: #444;
+  }
+  
+  .background-section {
+    height: 200px;
+    background-image: url('https://image.architonic.com/pro2-3/20092255/herringbone-oak-ab-dim-white-sample-pro-b-arcit18.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    padding: 20px;
+  }
+  
+  .content-wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 80%;
+    max-width: 1200px;
+    background: rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    border-radius: 8px;
+  }
+  
+  .text-content {
+    flex: 1;
+    margin-right: 50px;
+    margin-top: 30px;
+  }
+  
+  .text-content h1,
+  .text-content p {
+    margin: 0;
+  }
+  
+  #head {
+    font-size: 40px;
+  }
+  
+  #para {
+    font-size: 25px;
+  }
+  
+  .footer {
+    background-color: #000;
+    color: white;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  .footer-content {
+    max-width: 800px;
+    margin: auto;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .footer-content h3,
+  .footer-content p {
+    margin: 5px 0;
+  }
+  
+  #search {
+    font-size: 35px;
+  }
+  
+  .search-section {
+    background-image: url('bgim.png');
+    color: black;
+    padding: 40px 0;
+    text-align: center;
+    margin-bottom: 20px;
+    margin-left: 20px;
+    width: 100%;
+    opacity: 1;
+    z-index: 1;
+  }
+  
+  .search-content {
+    max-width: 700px;
+    margin: auto;
+    height: 100px;
+  }
+  
+  .search-content h2 {
+    margin-bottom: 20px;
+  }
+  
+  .search-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .search-form input[type="text"] {
+    padding: 10px;
+    width: 50%;
+    margin-right: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: black;
+    color: white;
+  }
+  
+  .search-form select {
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: white;
+    color: black;
+    width: 150px;
+    margin-right: 30px;
+  }
+  
+  /* Styling for New Arrivals heading */
+  .new-arrivals {
+      text-align: center;
+      margin: 20px auto; /* Center the section horizontally */
+      max-width: 800px; /* Adjust width as needed */
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .new-arrivals h2 {
+      font-size: 32px;
+      color: #333;
+      margin-bottom: 20px;
+  }
+  
+  /* Book grid */
+  .book-grid {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+  }
+  
+  .book-thumbnail {
+      background-color: white;
+      padding: 10px;
+      border: 1px solid #ccc;
+      border-radius: 4px;
+      text-align: center;
+  }
+  
+  .book-thumbnail img {
+      width: 100px;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 10px;
+  }
+  
+  .book-thumbnail p {
+      font-size: 16px;
+      margin: 0;
+  }
+  
+  /* Adjustments for responsiveness */
+  @media (max-width: 768px) {
+      .new-arrivals {
+          padding: 10px;
+      }
+  
+      .book-thumbnail img {
+          width: 80px;
+      }
+  
+      .book-thumbnail p {
+          font-size: 14px;
+      }
+  }
+  
+  .book-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  
+  .book-thumbnail {
+    background-color: white;
+    padding: 10px;
+    border: 1px solid #CCC;
+    border-radius: 4px;
+  }
+  
+  .book-thumbnail img {
+    width: 100px;
+    height: auto;
+  }
+  
+  /* Add this to your existing CSS file */
+  #penguin {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    width: 120px;
+  }
+  
+  #message {
+    position: fixed;
+    bottom: 140px;
+    right: 140px; /* Adjust this value to align the message box near the penguin */
+    background-color: rgba(255, 255, 255, 0.9);
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+    display: none;
+  }
+  
+  /* New styles for login page */
+  .login-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 100px); /* Full height minus the height of the header */
+    background-color: #f0f0f0;
+  }
+  
+  .split-screen {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .left, .right {
+    flex: 1;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .left {
+    background-color: #6B8A7A;
+    color: #fff;
+    border-top-left-radius: 8px;
+    border-bottom-left-radius: 8px;
+  }
+  
+  .right {
+    background-color: #fff;
+    border-top-right-radius: 8px;
+    border-bottom-right-radius: 8px;
+  }
+  
+  .welcome-message h1 {
+    font-size: 36px;
+    margin-bottom: 10px;
+  }
+  
+  .welcome-message p {
+    font-size: 18px;
+  }
+  
+  .login-container {
+    margin-bottom: 20px;
+  }
+  
+  .login-container form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .login-container input {
+    padding: 10px;
+    margin: 5px 0;
+    width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  .login-container button {
+    padding: 10px 20px;
+    margin-top: 10px;
+    border: none;
+    border-radius: 4px;
+    background-color: #6B8A7A;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .login-container button:hover {
+    background-color: #444;
+  }
+  
+  .user-image img {
+    width: 100%;
+    max-width: 300px;
+    border-radius: 50%;
+    border: 2px solid #6B8A7A;
+  }
+  
+  .info-section {
+    padding: 40px 0;
+    background-color: #f0f0f0;
+  }
+  
+  .info-split-screen {
+    display: flex;
+    justify-content: space-around;
+    align-items: flex-start;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+  }
+  
+  .info-block {
+    flex: 1;
+    margin: 0 20px;
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .info-block h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  
+  .info-block ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .info-block ul li {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  /* CSS for search history section */
+  .search-history-section {
+      margin: 50px auto;
+      max-width: 600px;
+      text-align: center;
+  }
+  
+  .search-history-section h2 {
+      font-size: 24px;
+      margin-bottom: 20px;
+  }
+  
+  .search-history-list {
+      list-style-type: none;
+      padding: 0;
+  }
+  
+  .search-history-list li {
+      margin-bottom: 20px;
+      display: flex;
+      align-items: center;
+  }
+  
+  .search-history-list li img {
+      width: 80px; /* Adjust image width as needed */
+      height: auto;
+      margin-right: 20px;
+  }
+  
+  .search-history-list li a {
+      text-decoration: none;
+      color: #333;
+      font-size: 18px;
+  }
+  
+  .search-history-list li a:hover {
+      text-decoration: underline;
+      color: #555;
+  }
+  
+  /* Additional styles for team section */
+  .team-section {
+    background-color: #fff;
+    padding: 40px 0;
+  }
+  
+  .team-content {
+    max-width: 1200px;
+    margin: auto;
+    text-align: center;
+  }
+  
+  .team-member {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  .team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+  .member-details {
+    text-align: left;
+  }
+  
+  /* Additional styles for mission section */
+  .mission-section {
+    background-color: #f0f0f0;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .mission-content {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Additional styles for history section */
+  .history-section {
+    background-color: #fff;
+    padding: 40px 0;
+    text-align: center;
+  }
+  
+  .history-content {
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  /* Reset default margin and padding */
+  body, h1, h2, h3, p, ul {
+      margin: 0;
+      padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+  }
+  
+  .navbar {
+      background-color: #6B8A7A;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      height: 100px;
+  }
+  
+  .navbar-brand {
+      display: flex;
+      align-items: center;
+  }
+  
+  .navbar-logo {
+      width: 160px;
+      height: 80px;
+  }
+  
+  .navbar-menu {
+      list-style-type: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .navbar-menu li {
+      margin-left: 20px;
+  }
+  
+  .navbar-menu a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+  }
+  
+  .navbar-menu a:hover {
+      text-decoration: underline;
+  }
+  /* Styling for New Arrivals heading */
+  .new-arrivals-heading {
+      text-align: center;
+      margin: 20px 0;
+  }
+  
+  .new-arrivals-heading h1 {
+      font-size: 32px;
+      color: #333;
+  }
+  
+  /* Split screen layout */
+  .split-screen {
+      display: flex;
+      margin: 20px auto;
+      max-width: 1200px;
+  }
+  
+  .split-left, .split-right {
+      flex: 1;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  
+  .split-left {
+      background-color: #fff;
+  }
+  
+  .split-right {
+      background-color: #f9f9f9;
+  }
+  
+  .split-left img, .split-right img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 20px;
+  }
+  
+  .split-left h2, .split-right h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+  }
+  
+  .split-left p, .split-right p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+  }
+  
+  .split-left button, .split-right button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      background-color: #6B8A7A;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+  }
+  
+  .split-left button:hover, .split-right button:hover {
+      background-color: #444;
+  }
+  
+  /* Reset default margin and padding */
+  body, h1, h2, h3, p, ul {
+      margin: 0;
+      padding: 0;
+  }
+  
+  /* Basic styling */
+  body {
+      font-family: Arial, sans-serif;
+      background-color: #f0f0f0;
+  }
+  
+  .navbar {
+      background-color: #6B8A7A;
+      color: white;
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 10px 20px;
+      height: 100px;
+  }
+  
+  .navbar-brand {
+      display: flex;
+      align-items: center;
+  }
+  
+  .navbar-logo {
+      width: 160px;
+      height: 80px;
+  }
+  
+  .navbar-menu {
+      list-style-type: none;
+      display: flex;
+      margin: 0;
+      padding: 0;
+  }
+  
+  .navbar-menu li {
+      margin-left: 20px;
+  }
+  
+  .navbar-menu a {
+      color: white;
+      text-decoration: none;
+      font-size: 18px;
+  }
+  
+  .navbar-menu a:hover {
+      text-decoration: underline;
+  }
+  
+  /* Styling for New Arrivals heading */
+  .new-arrivals-heading {
+      text-align: center;
+      margin: 20px 0;
+  }
+  
+  .new-arrivals-heading h1 {
+      font-size: 32px;
+      color: #333;
+  }
+  
+  /* Split screen layout */
+  .split-screen {
+      display: flex;
+      margin: 20px auto;
+      max-width: 1200px;
+  }
+  
+  .split-left, .split-right {
+      flex: 1;
+      padding: 20px;
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+  }
+  
+  .split-left {
+      background-color: #fff;
+  }
+  
+  .split-right {
+      background-color: #f9f9f9;
+  }
+  
+  .split-left img, .split-right img {
+      max-width: 100%;
+      height: auto;
+      border-radius: 4px;
+      margin-bottom: 20px;
+  }
+  
+  .split-left h2, .split-right h2 {
+      font-size: 24px;
+      margin-bottom: 10px;
+  }
+  
+  .split-left p, .split-right p {
+      font-size: 16px;
+      line-height: 1.6;
+      margin-bottom: 20px;
+  }
+  
+  .split-left button, .split-right button {
+      padding: 10px 20px;
+      border: none;
+      border-radius: 4px;
+      background-color: #6B8A7A;
+      color: white;
+      font-size: 16px;
+      cursor: pointer;
+  }
+  
+  .split-left button:hover, .split-right button:hover {
+      background-color: #444;
+  }
+  
+  /* Footer */
+  .footer {
+      background-color: #333;
+      color: white;
+      padding: 20px;
+      text-align: center;
+  }
+  
+  .footer-content {
+      max-width: 800px;
+      margin: auto;
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  }
+  
+  .footer-content h3,
+  .footer-content p {
+      margin: 5px 0;
+  }
+  
