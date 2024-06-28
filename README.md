@@ -3,7 +3,7 @@
 In the public folder we have stored all the html and css files. When files are to be downloaded then they are to be put in the same manner for it to work properly.
 
 Rough structure should be something like this
-project-root/
+'''project-root/
 │
 ├── node_modules/
 │
@@ -23,6 +23,7 @@ project-root/
 │
 ├── package.json
 └── package-lock.json
+'''
 
 node modules had a lot of files withing the folder so havent uploaded them
 
