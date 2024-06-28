@@ -3,28 +3,28 @@
 In the public folder we have stored all the html and css files. When files are to be downloaded then they are to be put in the same manner for it to work properly.
 
 Rough structure should be something like this:
-
-- project-root/
-- │
-- ├── node_modules/
-- │
-- ├── public/
-- │   ├── about.html
-- │   ├── index.html
-- │   ├── profile.html
-- │   ├── register.html
-- │   ├── search_profile.html
-- │   ├── search.html
-- │   └── stylef.css
-- │
-- ├── index.js
-- │ 
-- ├── users.json
-- ├── UpdatedDatasetSOI.json
-- │
-- ├── package.json
-- └── package-lock.json
-
+```
+project-root/
+│
+├── node_modules/
+│
+├── public/
+│   ├── about.html
+│   ├── index.html
+│   ├── profile.html
+│   ├── register.html
+│   ├── search_profile.html
+│   ├── search.html
+│   └── stylef.css
+│
+├── index.js
+│ 
+├── users.json
+├── UpdatedDatasetSOI.json
+│
+├── package.json
+└── package-lock.json
+```
 
 Node modules had a lot of files withing the folder so havent uploaded them
 
@@ -47,6 +47,10 @@ Node modules had a lot of files withing the folder so havent uploaded them
 - `search.html`: Structure of the search page accessed from the home page.
 
 - `stylef.css`: Stores the design styles of the pages.
+
+- `report_2.pdf`: report_2 of Error_204
+
+- `report_1.pdf`: report_1 of Error_204
 
 Team Members: 
 - Richa Rajashekhar
