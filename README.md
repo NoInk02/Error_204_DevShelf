@@ -2,27 +2,28 @@
 
 In the public folder we have stored all the html and css files. When files are to be downloaded then they are to be put in the same manner for it to work properly.
 
-Rough structure should be something like this
--project-root/
--│
--├── node_modules/
--│
--├── public/
--│   ├── about.html
--│   ├── index.html
--│   ├── profile.html
--│   ├── register.html
--│   ├── search_profile.html
--│   ├── search.html
--│   └── stylef.css
--│
--├── index.js
--│
--├── users.json
--├── UpdatedDatasetSOI.json
--│
--├── package.json
--└── package-lock.json
+Rough structure should be something like this:
+
+- project-root/
+- │
+- ├── node_modules/
+- │
+- ├── public/
+- │   ├── about.html
+- │   ├── index.html
+- │   ├── profile.html
+- │   ├── register.html
+- │   ├── search_profile.html
+- │   ├── search.html
+- │   └── stylef.css
+- │
+- ├── index.js
+- │ 
+- ├── users.json
+- ├── UpdatedDatasetSOI.json
+- │
+- ├── package.json
+- └── package-lock.json
 
 
 Node modules had a lot of files withing the folder so havent uploaded them
