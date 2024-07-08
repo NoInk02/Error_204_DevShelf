@@ -36,6 +36,10 @@ project-root/
 └── package-lock.json
 ```
 
+- Just download the files in this manner and all the dependencies present in package.json, then enter node index.js in the terminal and press enter. Then go to your web browser and type localhost:3000 and press enter.
+
+- Each file's use is mentioned below :-
+
 - `index.js`: Provides endpoints for user registration, login, book search, adding books to cart with stock management, and user profile retrieval, all backed by JSON file storage.
 
 - `users.json`: Stores data of the user.
