@@ -25,7 +25,7 @@ project-root/
 │   ├── index.html
 │   ├── register.html
 │   ├── profile.html
-│   └── (other static files html and css files)
+│   └── (other static image, html and css files)
 │
 ├── index.js
 │ 
