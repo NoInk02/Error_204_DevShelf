@@ -12,9 +12,9 @@ Welcome to our Library Management System (LMS), a comprehensive platform designe
 - `LibraryDB.users.json`: JSON file storing user profiles and credentials.
 - `LibraryDB.book.json`: JSON file storing information about books available in the library.
 - `LibraryDB.review.json`: JSON file storing user reviews and ratings for books.
-- `report-1.pdf`: Report document providing an overview of the project's design and features.
-- `report-2.pdf`: Report document detailing the implementation and technical aspects of the project.
-- `report-3.pdf`: Report document covering all the features and future enhancements of the project.
+- `report_1.pdf`: Report document providing an overview of the project's design and features.
+- `report_2.pdf`: Report document detailing the implementation and technical aspects of the project.
+- `Report_3_DevShelf_Error_204.pdf`: Report document covering all the features and future enhancements of the project.
 - `package.json`: Node.js package file specifying dependencies and scripts for the project.
 - `package-lock.json`: Auto-generated file ensuring deterministic dependency resolution.
 - `README.md`: Documentation file providing an overview of the project, installation instructions, and usage details.
