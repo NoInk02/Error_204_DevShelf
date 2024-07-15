@@ -63,10 +63,11 @@ Ensure you have Node.js and MongoDB installed. Download the zip files,extract th
 
 ## Getting Started
 
-1. Install dependencies with `npm install`.
-2. Import the data from json files into your mongo book collection.
-3. Start the server with `npm index.js`.
-4. Navigate to `http://localhost:3000` in your browser.
+1. Exract all the files
+2. Install dependencies with `npm install`.
+3. Import the data from json files into your mongo book collection.
+4. Start the server with `npm index.js`.
+5. Navigate to `http://localhost:3000` in your browser.
 
 ## Team:- 
 - Error_204
